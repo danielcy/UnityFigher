@@ -7,6 +7,7 @@ public class PlayerMovement : MonoBehaviour {
 
 	private Animator anim;
 	private Rigidbody playerRigidbody;
+
 	void Awake ()
 	{
 		anim = GetComponent<Animator> ();
